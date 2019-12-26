@@ -15,5 +15,6 @@ public class App {
         Movie beanA = context.getBean("movieBean", Movie.class);
         System.out.println(beanA);
         context.registerShutdownHook();
+
     }
 }
